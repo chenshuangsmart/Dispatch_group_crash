@@ -199,7 +199,7 @@
 				TargetAttributes = {
 					40F8337D20F6DD32008922D0 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					40F8339520F6DD32008922D0 = {
 						CreatedOnToolsVersion = 9.2;
@@ -430,12 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2V259WG54;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dispatch_group_crash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crash";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,12 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C2V259WG54;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dispatch_group_crash/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crash";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -462,7 +464,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = Dispatch_group_crashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crashTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dispatch_group_crash.app/Dispatch_group_crash";
@@ -477,7 +479,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = Dispatch_group_crashTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crashTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dispatch_group_crash.app/Dispatch_group_crash";
@@ -491,7 +493,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = Dispatch_group_crashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crashUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Dispatch_group_crash;
@@ -505,7 +507,7 @@
 				DEVELOPMENT_TEAM = C2V259WG54;
 				INFOPLIST_FILE = Dispatch_group_crashUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.Dispatch-group-crashUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.Dispatch-group-crashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Dispatch_group_crash;
